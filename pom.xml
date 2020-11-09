@@ -26,6 +26,7 @@
 		<swagger-ui.version>2.9.2</swagger-ui.version>
 		<apollo-client.version>1.7.0</apollo-client.version>
 		<lombok.version>1.18.16</lombok.version>
+		<rocketmq.version>2.1.1</rocketmq.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -90,6 +91,11 @@
     			<artifactId>lombok</artifactId>
    		 		<version>${lombok.version}</version>
     			<scope>provided</scope>
+			</dependency>
+			<dependency>
+    			<groupId>org.apache.rocketmq</groupId>
+    			<artifactId>rocketmq-spring-boot-starter</artifactId>
+    			<version>${rocketmq.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
