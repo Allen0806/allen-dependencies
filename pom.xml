@@ -27,7 +27,7 @@
 		<apollo-client.version>1.7.0</apollo-client.version>
 		<lombok.version>1.18.16</lombok.version>
 		<rocketmq.version>2.1.1</rocketmq.version>
-		<xxl-job.version>2.2.0</xxl-job.version>
+		<xxl-job.version>2.3.0</xxl-job.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
