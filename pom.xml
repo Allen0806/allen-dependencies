@@ -24,9 +24,7 @@
         <mybatis-plus-boot-starter.version>3.5.2</mybatis-plus-boot-starter.version>
         <xxl-job-core.version>2.3.0</xxl-job-core.version>
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
-        <guava.version>31.0.1-jre</guava.version>
-        <rocketmq-spring-boot-starter.version>2.2.2</rocketmq-spring-boot-starter.version>
-        <spring-boot-starter-log4j2.version>2.7.2</spring-boot-starter-log4j2.version>
+        <guava.version>31.1-jre</guava.version>
         <lombok.version>1.18.24</lombok.version>
         <shenyu.version>2.4.3</shenyu.version>
         <hutool.version>5.8.4</hutool.version>
@@ -98,16 +96,6 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.rocketmq</groupId>
-                <artifactId>rocketmq-spring-boot-starter</artifactId>
-                <version>${rocketmq-spring-boot-starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-log4j2</artifactId>
-                <version>${spring-boot-starter-log4j2.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
