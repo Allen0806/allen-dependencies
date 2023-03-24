@@ -5,7 +5,7 @@
 	<parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.2</version>
+        <version>3.0.5</version>
 	</parent>
 	<groupId>com.allen</groupId>
 	<artifactId>allen-dependencies</artifactId>
@@ -17,9 +17,9 @@
         <java.version>17</java.version>
         <spring-cloud.version>2022.0.1</spring-cloud.version>
         <spring-cloud-alibaba.version>2022.0.0.0-RC1</spring-cloud-alibaba.version>
-        <druid-spring-boot-starter.version>1.2.15</druid-spring-boot-starter.version>
+        <druid-spring-boot-starter.version>1.2.16</druid-spring-boot-starter.version>
         <dynamic-datasource-spring-boot-starter.version>3.6.1</dynamic-datasource-spring-boot-starter.version>
-        <redisson-spring-boot-starter.version>3.19.3</redisson-spring-boot-starter.version>
+        <redisson-spring-boot-starter.version>3.20.0</redisson-spring-boot-starter.version>
         <mybatis-spring-boot-starter.version>3.0.1</mybatis-spring-boot-starter.version>
         <mybatis-plus-boot-starter.version>3.5.3.1</mybatis-plus-boot-starter.version>
         <xxl-job-core.version>2.3.1</xxl-job-core.version>
@@ -27,7 +27,7 @@
         <guava.version>31.1-jre</guava.version>
         <lombok.version>1.18.26</lombok.version>
         <shenyu.version>2.5.1</shenyu.version>
-        <hutool.version>5.8.12</hutool.version>
+        <hutool.version>5.8.15</hutool.version>
     </properties>
     <dependencyManagement>
         <dependencies>
