@@ -18,12 +18,14 @@
         <spring-cloud.version>2022.0.1</spring-cloud.version>
         <spring-cloud-alibaba.version>2022.0.0.0-RC1</spring-cloud-alibaba.version>
         <druid-spring-boot-starter.version>1.2.16</druid-spring-boot-starter.version>
+        <mysql-connector-java.version>8.0.32</mysql-connector-java.version>
         <dynamic-datasource-spring-boot-starter.version>3.6.1</dynamic-datasource-spring-boot-starter.version>
         <redisson-spring-boot-starter.version>3.20.0</redisson-spring-boot-starter.version>
         <mybatis-spring-boot-starter.version>3.0.1</mybatis-spring-boot-starter.version>
         <mybatis-plus-boot-starter.version>3.5.3.1</mybatis-plus-boot-starter.version>
         <xxl-job-core.version>2.3.1</xxl-job-core.version>
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
+        <spring-cloud-starter-stream-kafka.verison>4.0.2</spring-cloud-starter-stream-kafka.verison>
         <guava.version>31.1-jre</guava.version>
         <lombok.version>1.18.26</lombok.version>
         <shenyu.version>2.5.1</shenyu.version>
@@ -44,6 +46,11 @@
                 <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -90,6 +97,11 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-stream-kafka</artifactId>
+                <version>${spring-cloud-starter-stream-kafka.verison}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.shenyu</groupId>
